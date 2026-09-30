@@ -1,0 +1,19 @@
+# IDE and Developpement Environement
+.idea/
+*.swp
+
+# Python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Jupyter generated
+.ipynb_checkpoints/*
+.jupyter/
+.jupyter_ystore.db
