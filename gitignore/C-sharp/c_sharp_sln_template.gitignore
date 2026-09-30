@@ -1,0 +1,13 @@
+# IDE and Developpement Environement
+.idea/
+*.swp
+
+# Virtual Environement
+*.env
+
+# Building Files/Folders
+bin/
+obj/
+
+# Log Files
+*.log
