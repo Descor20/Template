@@ -2,7 +2,10 @@
 .idea/
 *.swp
 
-# Python generated files
+# Virtual Environments
+.venv/
+
+# Python Generated Files
 __pycache__/
 *.py[oc]
 build/
@@ -10,10 +13,10 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv/
-
-# Jupyter generated
+# Jupyter Generated Files
 .ipynb_checkpoints/*
 .jupyter/
 .jupyter_ystore.db
+
+# Log Files
+*.log
