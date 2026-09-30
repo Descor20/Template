@@ -1,9 +1,20 @@
 # IDE and Developpement Environement
+.vscode/
 .idea/
 *.swp
+*.swo
+*~
+.DS_Store
 
 # Virtual Environments
-.venv/
+venv/
+ENV/
+env/
+.venv
+
+# Environement Variables
+*.env
+*.env.local
 
 # Python Generated Files
 __pycache__/
