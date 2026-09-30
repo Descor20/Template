@@ -1,5 +1,20 @@
-# Teacher folder - not included in remote
-teacher/
+# IDE and Developpement Environement
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# Environment Variables
+.env
+.env.local
 
 # Python
 __pycache__/
@@ -26,29 +41,11 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Virtual environments
-venv/
-ENV/
-env/
-.venv
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-
 # Testing
 .pytest_cache/
 .coverage
 htmlcov/
 .tox/
-
-# Environment variables
-.env
-.env.local
 
 # OS
 .DS_Store
